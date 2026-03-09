@@ -113,12 +113,12 @@ Recursively walks the entire object tree — both keys and values are translated
 Each `key=value` pair is URL-decoded then translated:
 ```
 // Original
-AUTHID=abc123&MSISDN=AGT00005&TYPE=prod
+AUTHID=<!DEDACT>&MSISDN=<!DEDACT>&TYPE=<!DEDACT>
 
 // Translated
-AUTHID = abc123
-MSISDN = AGT00005
-TYPE   = prod
+AUTHID = <!DEDACT>
+MSISDN = <!DEDACT>
+TYPE   = <!DEDACT>
 ```
 
 ### Plain text / XML / HTML
