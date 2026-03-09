@@ -156,16 +156,6 @@ https://translate.googleapis.com/translate_a/single
 ```
 `sl=auto` tells Google to detect the source language automatically. The detected language code is shown in the status bar.
 
----
-
-## Tested Against
-
-- Vodafone M-Pesa Tanzania (`com.vodafone.mpesa.tanzania`) — Flutter app
-- NdeHatru / Eximbank Comoros (`ndehatru.eximbank-km.com:8443`) — Flutter/Dart app
-- Any app with French, Arabic, or Portuguese API responses
-
----
-
 ## Limitations
 
 | Limitation | Notes |
